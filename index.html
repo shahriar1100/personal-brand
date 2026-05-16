@@ -1,26 +1,250 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Brand Agency</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Brand Agency</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
 
-    <!-- GSAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 
-    <!-- ScrollTrigger -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
-    <!-- Lenis Smooth Scroll -->
-    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+  <!-- Lenis Smooth Scroll -->
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+
 </head>
-
 <body>
 
-</body>
+  <!-- Loader -->
+  <div class="loader">
+    <h1>BRANDX</h1>
+  </div>
 
+  <!-- Navbar -->
+  <header>
+    <div class="logo">BRANDX</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button>Let's Talk</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+
+    <div class="hero-bg"></div>
+
+    <h1 class="hero-title">
+      WE BUILD <br/>
+      <span>PERSONAL BRANDS</span>
+    </h1>
+
+    <p>
+      Ultra modern digital agency focused on creators,
+      influencers and entrepreneurs.
+    </p>
+
+    <div class="hero-buttons">
+      <button class="primary-btn">Get Started</button>
+      <button class="secondary-btn">View Work</button>
+    </div>
+
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+
+    <div class="section-title">
+      <h2>Services</h2>
+      <p>Premium digital solutions</p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="card">
+        <div class="icon"></div>
+        <h3>Brand Identity</h3>
+        <p>Build a powerful online identity.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon"></div>
+        <h3>Website Design</h3>
+        <p>Modern responsive premium websites.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon"></div>
+        <h3>Social Growth</h3>
+        <p>Grow your audience organically.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon"></div>
+        <h3>Video Editing</h3>
+        <p>High-end cinematic editing.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon"></div>
+        <h3>Content Strategy</h3>
+        <p>Smart content for conversions.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon"></div>
+        <h3>Marketing</h3>
+        <p>Scale your brand with ads.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+
+    <div class="section-title">
+      <h2>Portfolio</h2>
+      <p>Selected Projects</p>
+    </div>
+
+    <div class="portfolio-grid">
+
+      <div class="project">
+        <div class="overlay">
+          <h3>Project One</h3>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="overlay">
+          <h3>Project Two</h3>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="overlay">
+          <h3>Project Three</h3>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+
+    <div class="section-title">
+      <h2>Testimonials</h2>
+      <p>What clients say</p>
+    </div>
+
+    <div class="testimonial-grid">
+
+      <div class="testimonial">
+        <p>
+          “Absolutely amazing experience working with this agency.”
+        </p>
+        <h4>- Alex</h4>
+      </div>
+
+      <div class="testimonial">
+        <p>
+          “Our brand completely changed after working together.”
+        </p>
+        <h4>- Sarah</h4>
+      </div>
+
+      <div class="testimonial">
+        <p>
+          “Best creative agency for personal branding.”
+        </p>
+        <h4>- John</h4>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing" id="pricing">
+
+    <div class="section-title">
+      <h2>Pricing</h2>
+      <p>Choose your package</p>
+    </div>
+
+    <div class="pricing-grid">
+
+      <div class="price-card">
+        <h3>Starter</h3>
+        <h1>$199</h1>
+        <p>Perfect for beginners</p>
+        <button>Choose Plan</button>
+      </div>
+
+      <div class="price-card featured">
+        <h3>Professional</h3>
+        <h1>$499</h1>
+        <p>Best for growing brands</p>
+        <button>Choose Plan</button>
+      </div>
+
+      <div class="price-card">
+        <h3>Enterprise</h3>
+        <h1>$999</h1>
+        <p>For premium businesses</p>
+        <button>Choose Plan</button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+
+    <div class="section-title">
+      <h2>Contact</h2>
+      <p>Let's build something great</p>
+    </div>
+
+    <form>
+
+      <input type="text" placeholder="Your Name"/>
+
+      <input type="email" placeholder="Your Email"/>
+
+      <textarea placeholder="Your Message"></textarea>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <h1>BRANDX</h1>
+    <p>© 2026 All Rights Reserved</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
 </html>
